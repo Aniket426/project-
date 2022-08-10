@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+   
+    </head>
+    <body>
+</head>
+<body>
+  <div class="container">
+    <div class="product">
+        <div class="gallery">
+            <img src="image/ggg51.webp" id="productImg">
+            <div class="controls">
+            <span class="btn active"></span>
+            <span class="btn"></span>
+            <span class="btn"></span>
+            </div>
+        </div>
+        <div class="details">
+            <h1>Casual Shirt</h1>
+            <h2>$499.00</h2>
+            <h3>30% OFF</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde incidunt,
+                 vitae a commodi rerum deserunt nostrum sed minima saepe mollitia?</p>
+                 <from>
+                    <div class="size-select">
+                        <p>Size</p>
+                        <label for="small">
+                            <input type="radio" name="size" id="small">
+                            <span>S</span>
+                        </label>
+                        <label for="medium">
+                            <input type="radio" name="size" id="medium">
+                            <span>M</span>
+                        </label>
+                        <label for="large">
+                            <input type="radio" name="size" id="large">
+                            <span>L</span>
+                        </label>
+                        <label for="x-large">
+                            <input type="radio" name="size" id="x-large">
+                            <span>XL</span>
+                        </label>
+                        <label for="XX-large">
+                            <input type="radio" name="size" id="xx-large">
+                            <span>XXL</span>
+                        </label>
+                    </div>
+                    <div class="color-select">
+                        <p>Color</p>
+                     <label for="red">
+                        <input type="radio" name="name" id="red">
+                        <span  class="color-1"</span>
+                       </label>
+                       <label for="green">
+                        <input type="radio" name="name" id="green">
+                        <span class="color-2"</span>
+                       </label>
+                       <label for="blue">
+                        <input type="radio" name="name" id="blue">
+                        <span  class="color-3"</span>
+                       </label>
+                       <label for="pink">
+                        <input type="radio" name="name" id="pink">
+                        <span class="color-4"</span>
+                       </label>
+                    </div>
+                    <div class="quantity-select">
+                        <p>Quantity</p>
+                        <input type="number" value="1">
+                    </div>
+                    <button>Buy Now</button>
+                 </from>
+        </div>
+    </div>
+  </div>
+  <script>
+    let productImg = document.getElementById("productImg");
+    let btn = document.getElementsByClassName("btn");
+
+    btn[0]. onclick = function(){
+        productImg.src = "image/ggg51.webp"
+        for(bt of btn){
+            bt.classList.remove("active");
+
+        }
+        this.classList.add("active");
+    }
+    btn[1]. onclick = function(){
+        productImg.src = "image/gggg52.webp"
+        for(bt of btn){
+            bt.classList.remove("active");
+
+        }
+        this.classList.add("active");
+    }
+    
+    btn[2]. onclick = function(){
+        productImg.src = "image/gggg53.webp"
+        for(bt of btn){
+            bt.classList.remove("active");
+
+        }
+        this.classList.add("active");
+    }
+    
+  </script>
+  <!---footer-->
+
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+              <div class="App-logo">
+                <img src="image/appl21.png">
+                <img src="image/apple40.png">
+                
+              </div>  
+            
+            </div>
+            <div class="footer-col-2">
+                <img src="image/amazon_logo.png" >
+                <p>our purpose Is To Sustainably Makethe Pleasure Android
+                    Benefits of Sports Accessible to the May.
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Compons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>jion Affiliate</li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us </h3>
+                <ul>
+                    <li>Facbook</li>
+                    <li>instagram</li>
+                    <li>Youtub</li>
+                    <li>Twiter</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copy right 2022 - Tech real qr</p>
+    </div>
+ </div>
+  
+</body>
+</html>
